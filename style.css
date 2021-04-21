@@ -1,0 +1,48 @@
+*{
+    margin: 10px;
+    padding: 0;
+    font-family : Roboto;
+    color: rgba(145, 145, 145);
+    font-weight: 900;
+}
+
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgba(54,54,54);
+    border-radius: 8px;
+    
+
+}
+
+.nav-title{
+    margin-right: auto;
+    font-weight: 900px;
+    color:white;
+
+}
+
+.nav-links li{
+    display: inline-block;
+    font-size: 20px;
+    
+}
+a{
+    text-decoration: none;
+}
+
+.btn{
+    background-color: rgba(79,193,255);
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    box-shadow: 5px 5px 5px black;
+    border : 3px solid black;
+}
+
+a:hover{
+    color: white;
+}
+
